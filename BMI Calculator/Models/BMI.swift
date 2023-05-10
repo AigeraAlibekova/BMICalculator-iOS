@@ -1,9 +1,10 @@
-//
-//  BMI.swift
-//  BMI Calculator
-//
-//  Created by Aika Ali on 04.05.2023.
-//  Copyright © 2023 Angela Yu. All rights reserved.
-//
+import UIKit
 
-import Foundation
+struct BMI {
+    let value: Float
+    let advice: String
+    let color: UIColor
+}
+/*underweight < 18.5
+normal 18.5 - 24.9
+overweight > 24.9*/
